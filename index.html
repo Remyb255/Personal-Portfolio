@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logoMain.png" type="images/x-icon">
+	<title>Blessing's Portfolio Website</title>
+	<link rel="stylesheet" href="styles.css">
+		
+</head>
+<body>
+
+	<Section id="navbar">
+		<div class="container">
+			<nav>
+				<img src="images/logoMain.png" alt="Logo" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#intro">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+		</div>
+		
+	</Section>
+	<section id="intro">
+		<div class="container">
+			<div class="intro-text">
+				<p>Web Developer</p>
+				<h1>Hi, I'm <span>Blessing</span><br>Amoya From Nigeria</h1>
+			</div>
+		</div>	
+	</section>
+
+	<!-- -------------about-------------- -->
+	<div class="content">
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="about-col-3 line-spacing">
+						<img src="images/profile-pic.png" alt="profile">
+						<h1 class="sub-title">About Me</h1>
+						<P>
+							Welcome to my digital domain! I am a passionate and versatile Full Stack Web Developer, 
+							seamlessly blending my expertise in computer networking and cybersecurity to craft innovative and secure digital solutions. 
+							With a commitment to excellence, I bring a wealth of knowledge and hands-on experience to the world of web development.
+						</P>
+						<p>
+							As a Full Stack Web Developer, I specialize in creating dynamic and user-centric websites that not only captivate 
+							visitors but also provide seamless functionality. My proficiency spans across the entire web development stack, 
+							from crafting responsive front-end interfaces using cutting-edge technologies like HTML5, CSS3, and JavaScript, 
+							to architecting robust and scalable back-end systems using frameworks such as Node.js and Django.
+						</p>
+						
+						<p>
+							Join me on this digital journey, where innovation meets security, and user experience is paramount. Let's build the future of the web together!
+						</p>
+						<div class="about-col-2">
+							<div class="tab-titles">
+								<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+								<p class="tab-links" onclick="opentab('experience')">Experience</p>
+								<p class="tab-links" onclick="opentab('education')">Education</p>
+							</div>
+							<div class="tab-contents active-tab" id="skills">
+								<ul> 
+									<li>Web Developement, HTML, CSS, JavaScript, jQuery, Boostrap, React, Git, Node.js and Django.</li>
+									
+								</ul>
+							</div>
+							<div class="tab-contents" id="experience">
+								<ul>
+									<li><span>2021- Current</span><br>Wildcat Technology</li>
+									<li><span>Web Developement</span><br>Develop and maintain websites and applications, ensuring high performance and responsiveness.</li>
+									<li><span>App Developement</span><br>Building innovative and seemless web applications.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="tab-contents" id="education">
+							<ul>
+								<li><span>2020</span><br>University of Jos, Nigeria Plateau State (B.Sc., Computer Science) </li>
+								<li><span>2021 to date</span><br>	https://www.freecodecamp.org (Coding/Programming).</li>
+								<li><span>2017</span><br>Cisco Networking Academy, University of Jos, Plateau State, Nigeria (IT Essentials, CCNA).</li>
+								<li><span>2014</span><br>Niger Delta University Wilberforce Island, Amassoma, Bayelsa State, Nigeria (B.Sc., Economics).</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!-- ------------------services-------------- --> 
+	
+		<div id="services">
+			<div class="container">
+				<h1 class="sub-title  ">My Services</h1>
+				<div class="services-list">
+					<div>
+						<i class="fa-solid fa-code"></i>
+						<h2>Web Developement</h2>
+						<p>I build responsive web sites/apps for small, medium and large scale type business.</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-network-wired"></i>
+						<h2>Networking</h2>
+						<p>I design, implement and maintain scalable network systems for small and medium business.</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-app-store"></i>
+						<h2>Cybersecurity</h2>
+						<p>I provide information, strategies, and designs to improve digital security.</p>
+						<a href="#">Learn more</a>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+	
+		<!-- --------------portfolio------------ -->
+	
+		<div id="portfolio">
+			<div class="container">
+				<h2 class="sub-title  ">My Work</h2>
+				<div class="work-list">
+					<div class="work">
+						<img src="images/work-1.png.jpg" alt="" height="300px">
+						<div class="layer">
+							<h3>Social Media App</h3>
+							<p>The app connects you to the talented people around the world.
+							Download it from play store.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="images/work-2.png.jpg" alt="" height="300px">
+						<div class="layer">
+							<h3>Music App</h3>
+							<p>The app connects you to the talented people around the world.
+							Download it from play store.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="images/work-3.png.jpg" alt="" height="300px">
+						<div class="layer">
+							<h3>Online Shopping App</h3>
+							<p>The app connects you to the talented people around the world.
+							Download it from play store.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="btn">See more</a>
+			</div>
+		</div>
+	
+		<!----------------------contact------------------- -->
+		
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left">
+						<h1 class="sub-title">Contact Me</h1>
+						<p><i class="fa-solid fa-paper-plane"></i>Me4liferemy@gmail.com</p>
+						<p><i class="fa-solid fa-square-phone"></i>08106401349, 08160570549</p>
+						<div class="social-icons">
+							<a href=""><i class="fa-brands fa-facebook"></i></a>
+							<a href=""><i class="fa-brands fa-twitter-square"></i></a>
+							<a href=""><i class="fa-brands fa-instagram"></i></a>
+							<a href=""><i class="fa-brands fa-linkedin"></i></a>
+						</div>
+						<a href="images/my-cv.pdf.docx" download class="btn btn2">Download CV</a>
+					</div>
+					<div class="contact-right">
+						<form name="submit-to-google-sheet">
+							<input type="text" name="Name" placeholder="Your Name" required>
+							<input type="email" name="Email" placeholder="Your Email" required>
+							<textarea name="Message" id="" cols="" rows="6" placeholder="Your Message"></textarea>
+							<button type="submit" class="btn btn2">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="copyright">
+		<p>Copyright. Made with <i class="fa-solid fa-heart"></i> by Wild Cat Technology</p>
+	</div>
+
+	<script src="https://kit.fontawesome.com/075b212f3c.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+	
+</body>
+</html>
